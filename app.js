@@ -1,11 +1,11 @@
-//? JS method
+//? JS
 let container = document.getElementById("react-container");
 
 ReactDOM.render("Hello", container);
 
 let h1_tag = document.createElement("h1");
 
-h1_tag.innerText = "Hello , From Js";
+h1_tag.innerText = "Hey , From Js";
 
 container.append(h1_tag);
 
@@ -26,7 +26,6 @@ function ReactContainer() {
     "Hello",
     React.createElement("div", null, "Welcome to react")
   );
-  return div_tag1
 }
 
 // iteration 3
